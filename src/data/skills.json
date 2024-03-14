@@ -1,0 +1,22 @@
+[
+  {
+    "title": "HTML",
+    "imageSrc": "html.png"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "css.png"
+  },
+  {
+    "title": "React",
+    "imageSrc": "react.png"
+  },
+  {
+    "title": "Python3",
+    "imageSrc": "python3.png"
+  },
+  {
+    "title": "figma",
+    "imageSrc": "figma.png"
+  }
+]

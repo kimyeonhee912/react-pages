@@ -22,13 +22,16 @@ export const Navbar = () => {
           onClick={() => setMenuOpen(false)}
         >
           <li>
-            <a href="#github">Github</a>
+            <a href="#About">About</a>
           </li>
           <li>
-            <a href="#notion">Notion</a>
+            <a href="https://github.com/gongjuyeonhee">Github</a>
           </li>
           <li>
-            <a href="#Blog">Blog</a>
+            <a href="https://bit.ly/3TEn49P">Notion</a>
+          </li>
+          <li>
+            <a href="https://bit.ly/4378cDX">Blog</a>
           </li>
           <li>
             <a href="#Contact">Contact</a>
