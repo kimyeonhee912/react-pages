@@ -8,12 +8,12 @@
   flex-direction: row;
   justify-content: space-evenly;
   width: 100vw;
-  padding: 58px 10%;
+  padding: 10px;
   gap: 10px;
 }
 
 .text h2 {
-  font-size: 80px;
+  font-size: 30px;
   font-weight: 700;
   letter-spacing: 3px;
   margin-bottom: 10px;
