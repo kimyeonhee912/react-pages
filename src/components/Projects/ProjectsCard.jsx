@@ -3,9 +3,10 @@ import styles from "./ProjectsCard.module.css";
 
 export const ProjectsCard = ({
   project: { title, description, skills, demo, source },
+  onClick,
 }) => {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} onClick={onClick}>
       <h3 className={styles.title}>{title}</h3>
       <p className={styles.description}>{description}</p>
       <ul className={styles.skills}>
