@@ -24,7 +24,7 @@ export const Contact = () => {
         </li>
         <li className={styles.link}>
           <AiFillGithub />
-          <a href="https://github.com/gongjuyeonhee">github</a>
+          <a href="https://github.com/kimyeonhee912">github</a>
         </li>
       </ul>
     </footer>

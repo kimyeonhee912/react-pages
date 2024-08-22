@@ -15,7 +15,7 @@ export const Navbar = () => {
       </a>
       <div className={styles.menu}>
         <div className={styles.menuBtn} onClick={() => setMenuOpen(!menuOpen)}>
-          {menuOpen ? <BiX /> : <BiMenu />} {/*순서 바꿈. */}
+          {menuOpen ? <BiX /> : <BiMenu />}
         </div>
         <ul
           className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
