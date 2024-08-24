@@ -18,6 +18,7 @@ export const ProjectsCard = ({
           );
         })}
       </ul>
+      <div className={styles.more}>자세히</div>
       <div className={styles.links}>
         <a href={demo} className={styles.link}>
           Demo

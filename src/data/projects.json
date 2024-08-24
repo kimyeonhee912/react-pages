@@ -1,22 +1,29 @@
 [
   {
-    "title": "Rock-Scissor-Paper Game",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
+    "title": "⭐5gaso",
+    "description": "교통수단 동승자를 구할 수 있는 앱",
+    "skills": ["ReactNative"],
     "demo": "https://www.example.com",
     "source": "https://www.github.com"
   },
   {
-    "title": "Find-Santa",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
+    "title": "☑️Linked-In",
+    "description": "LinkedIn 클론 사이트",
+    "skills": ["ReactJS", "Java"],
     "demo": "https://www.example.com",
     "source": "https://www.github.com"
   },
   {
-    "title": "5gaso",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["ReactNative", "Firebase"],
+    "title": "☑️MLB",
+    "description": "MLB 클론 사이트",
+    "skills": ["ReactJS"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "☑️Travelog",
+    "description": "국내 여행자를 위한 커뮤니티 사이트",
+    "skills": ["NextJS"],
     "demo": "https://www.example.com",
     "source": "https://www.github.com"
   }
