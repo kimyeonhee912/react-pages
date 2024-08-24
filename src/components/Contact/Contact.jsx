@@ -9,7 +9,7 @@ export const Contact = () => {
     <footer id="Contact" className={styles.container}>
       <div className={styles.text}>
         <h2>Contact</h2>
-        <p>Please feel free to contact me!</p>
+        <p>ⓒ 2024. Yeonhee Kim All rights reserved.</p>
       </div>
       <ul className={styles.links}>
         <li className={styles.link}>

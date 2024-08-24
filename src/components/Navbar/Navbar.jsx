@@ -11,7 +11,7 @@ export const Navbar = () => {
   return (
     <nav className={styles.navbar}>
       <a className={styles.title} href="/">
-        Portfolio
+        KYH's Portfolio
       </a>
       <div className={styles.menu}>
         <div className={styles.menuBtn} onClick={() => setMenuOpen(!menuOpen)}>
