@@ -30,7 +30,7 @@ export const Experience = () => {
       <div className={styles.contentContainer}>
         <p className={styles.contentTitle}>frontend</p>
         <Skils skillsData={frontData} />
-        <p className={styles.contentTitle}>backend</p>
+        {/* <p className={styles.contentTitle}>backend</p>
         <Skils skillsData={backData} />
         <p className={styles.contentTitle}>mobile App</p>
         <Skils skillsData={backData} />
@@ -39,7 +39,7 @@ export const Experience = () => {
         <p className={styles.contentTitle}>version control</p>
         <Skils skillsData={backData} />
         <p className={styles.contentTitle}>communication</p>
-        <Skils skillsData={backData} />
+        <Skils skillsData={backData} /> */}
       </div>
     </div>
   );

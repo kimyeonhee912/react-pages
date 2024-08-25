@@ -2,29 +2,38 @@
   {
     "title": "⭐5gaso",
     "description": "교통수단 동승자를 구할 수 있는 앱",
-    "skills": ["ReactNative"],
+    "des2": "왜 개발하게 됐는지",
+    "skills": ["ReactNative", "firebase"],
+    "sk": "이 기술을 선택한 이유",
     "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "source": "https://www.github.com",
+    "date": "2023",
+    "느낀점": "??",
+    "주요기능": " ㅇㅇ",
+    "size": "2023.10 개인 프로젝트"
   },
   {
     "title": "☑️Linked-In",
     "description": "LinkedIn 클론 사이트",
     "skills": ["ReactJS", "Java"],
     "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "source": "https://www.github.com",
+    "size": "2024.06 팀프로젝트"
   },
   {
     "title": "☑️MLB",
     "description": "MLB 클론 사이트",
     "skills": ["ReactJS"],
     "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "source": "https://www.github.com",
+    "size": "2024.06 팀프로젝트"
   },
   {
     "title": "☑️Travelog",
     "description": "국내 여행자를 위한 커뮤니티 사이트",
     "skills": ["NextJS"],
     "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "source": "https://www.github.com",
+    "size": "2024.07 팀프로젝트"
   }
 ]

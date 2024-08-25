@@ -20,6 +20,7 @@
 .title {
   font-size: 25px;
   font-weight: 700;
+  margin: 10px 0px 5px 0px;
 }
 
 .description {
@@ -57,7 +58,7 @@
 
 .links {
   width: 100%;
-  margin-top: 26px;
+  margin-top: 10px;
   display: flex;
   justify-content: space-around;
 }
@@ -69,5 +70,5 @@
   font-weight: 600;
   border-radius: 100px;
   background: var(--color-primary);
-  padding: 1px 22px;
+  padding: 2px 20px;
 }
