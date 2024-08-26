@@ -17,6 +17,12 @@
   box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
 }
 
+.selected {
+  transform: translateY(-30px);
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
 .title {
   font-size: 25px;
   font-weight: 700;

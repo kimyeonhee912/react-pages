@@ -2,34 +2,44 @@ import React, { useState } from "react";
 import projects from "../../data/projects.json";
 import { ProjectsCard } from "./ProjectsCard";
 import styles from "./Projects.module.css";
-import { ProjectModal } from "./ProjectModal";
 
 export const Projects = () => {
-  const [selectedProject, setSelectedProject] = useState(null);
+  const [selectedProjectId, setSelectedProjectId] = useState(null);
 
-  const handleCardClick = (project) => {
-    setSelectedProject(project);
+  const handleCardClick = (projectId) => {
+    setSelectedProjectId((prevSelectedProjectId) =>
+      prevSelectedProjectId === projectId ? null : projectId
+    );
   };
 
-  const handleCloseModal = () => {
-    setSelectedProject(null);
-  };
   return (
     <div className={styles.container}>
       <h2 className={styles.title}>major Projects</h2>
       <div className={styles.projects}>
         {projects.map((project, id) => {
+          const isSelected = selectedProjectId === id;
+
           return (
-            <ProjectsCard
-              key={id}
-              project={project}
-              onClick={() => handleCardClick(project)}
-            />
+            <div key={id}>
+              <ProjectsCard
+                project={project}
+                onClick={() => handleCardClick(id)}
+                isSelected={isSelected}
+              />
+            </div>
           );
         })}
       </div>
-      {selectedProject && (
-        <ProjectModal project={selectedProject} onClose={handleCloseModal} />
+      {selectedProjectId !== null && (
+        <div className={styles.dropdown}>
+          <h3>{projects[selectedProjectId].title}</h3>
+          <p>{projects[selectedProjectId].description}</p>
+          <p>{projects[selectedProjectId].skills}</p>
+          <p>{projects[selectedProjectId].teamMembers}</p>
+          <p>{projects[selectedProjectId].results}</p>
+          <p>{projects[selectedProjectId].overview}</p>
+          <p>{projects[selectedProjectId].duration}</p>
+        </div>
       )}
     </div>
   );

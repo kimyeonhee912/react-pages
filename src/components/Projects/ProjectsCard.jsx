@@ -4,9 +4,13 @@ import styles from "./ProjectsCard.module.css";
 export const ProjectsCard = ({
   project: { title, description, skills, demo, source, size },
   onClick,
+  isSelected,
 }) => {
   return (
-    <div className={styles.container} onClick={onClick}>
+    <div
+      className={`${styles.container} ${isSelected ? styles.selected : ""}`}
+      onClick={onClick}
+    >
       <h3 className={styles.title}>{title}</h3>
       <p>{size}</p>
       <p className={styles.description}>{description}</p>

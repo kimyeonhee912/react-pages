@@ -18,6 +18,8 @@
   max-width: 77%;
   width: 100%;
   position: relative;
+  overflow-y: auto; /* 세로 스크롤 가능하게 설정 */
+  overflow-x: hidden; /* 가로 스크롤 숨김 */
 }
 
 .modalContent h2 {
@@ -36,4 +38,11 @@
   border: none;
   font-size: 24px;
   cursor: pointer;
+}
+
+.projectImage {
+  width: 50%; /* 모달의 폭에 맞게 조정 */
+  height: auto; /* 비율 유지 */
+  margin: 10px 0; /* 이미지 위아래 여백 추가 */
+  border-radius: 8px; /* 이미지 둥글게 */
 }
