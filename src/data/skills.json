@@ -8,15 +8,15 @@
     "imageSrc": "css.png"
   },
   {
-    "title": "React",
+    "title": "ReactJS",
     "imageSrc": "react.png"
   },
   {
-    "title": "Python3",
-    "imageSrc": "python3.png"
+    "title": "NextJS",
+    "imageSrc": "nextjs.png"
   },
   {
-    "title": "figma",
-    "imageSrc": "figma.png"
+    "title": "tailwind-CSS",
+    "imageSrc": "tailwind.png"
   }
 ]

@@ -12,14 +12,7 @@ export const About = () => {
           <li className={styles.aboutItem}>
             <div className={styles.aboutItemText}>
               <h3>김연희 _ Frontend Developer</h3>
-              <ul>
-                <li>
-                  안녕하세요. 알아가는 기쁨을 느끼는 프론트엔드 개발자
-                  김연희입니다.
-                </li>
-                <li>생년월일: 2001.01.03</li>
-                <li>SQL 개발자(SQLD)</li>
-              </ul>
+              <p>끊임없이 생각하는 프론트엔드 개발자 김연희입니다.</p>
             </div>
           </li>
           <li className={styles.aboutItem}>
