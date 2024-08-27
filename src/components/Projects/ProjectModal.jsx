@@ -1,13 +1,13 @@
 import React from "react";
 import styles from "./ProjectModal.module.css";
-import ogasoArch from "../../assets/projectImg/5gasoArch.png";
+import ogaso from "../../assets/projectImg/ogaso.png";
 
 export const ProjectModal = ({ project, onClose }) => {
   const projectImages = {
-    "5gaso": ogasoArch, // JSON의 title에 맞춰 key 설정
+    "5gaso": ogaso, // JSON의 title에 맞춰 key 설정
     // 다른 프로젝트 이미지 추가
   };
-
+  console.log("🚀 ~ ProjectModal ~ projectImages:", projectImages);
   return (
     <div className={styles.modalOverlay} onClick={onClose}>
       <div className={styles.modalContent} onClick={(e) => e.stopPropagation()}>

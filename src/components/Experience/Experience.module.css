@@ -73,6 +73,17 @@
   margin: 0;
 }
 
+.sliderContainer {
+  margin: 0 auto; /* 가운데 정렬 */
+  max-width: 1200px; /* 최대 너비 설정 */
+  padding: 20px; /* 패딩 추가 */
+}
+
+.skillCard {
+  text-align: center; /* 카드 텍스트 가운데 정렬 */
+  padding: 10px;
+}
+
 @media screen and (max-width: 830px) {
   .content {
     flex-direction: column;

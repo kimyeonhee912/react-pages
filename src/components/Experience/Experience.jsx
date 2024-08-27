@@ -7,40 +7,40 @@ import reactimg from "../../assets/tool/react.png";
 import nextimg from "../../assets/tool/nextjs.png";
 import tailwindimg from "../../assets/tool/tailwind.png";
 import javascriptimg from "../../assets/tool/JavaScript.png";
+import pythonimg from "../../assets/tool/python.png";
+import figmaimg from "../../assets/tool/figma.png";
+import javaimg from "../../assets/tool/java.png";
+import mysqlimg from "../../assets/tool/mysql.png";
+import reactnativeimg from "../../assets/tool/reactnative.png";
+import springimg from "../../assets/tool/springboot.png";
+import typescriptimg from "../../assets/tool/typescript.png";
 
 export const Experience = () => {
   const frontData = [
     { imgSrc: reactimg, altText: "react", skillName: "ReactJS" },
     { imgSrc: nextimg, altText: "nextjs", skillName: "NextJS" },
-    { imgSrc: htmlimg, altText: "html", skillName: "HTML" },
+    { imgSrc: htmlimg, altText: "html", skillName: "HTML 5" },
     { imgSrc: javascriptimg, altText: "javascript", skillName: "JavaScript" },
-    { imgSrc: cssimg, altText: "css", skillName: "CSS" },
+    { imgSrc: cssimg, altText: "css", skillName: "CSS 3" },
     { imgSrc: tailwindimg, altText: "tailwind", skillName: "tailwindCSS" },
+    { imgSrc: pythonimg, altText: "python", skillName: "python3" },
+    { imgSrc: figmaimg, altText: "figma", skillName: "figma" },
+    { imgSrc: javaimg, altText: "java", skillName: "Java" },
+    { imgSrc: mysqlimg, altText: "mysql", skillName: "mySQL" },
+    {
+      imgSrc: reactnativeimg,
+      altText: "ReactNative",
+      skillName: "ReactNative",
+    },
+    { imgSrc: springimg, altText: "springboot", skillName: "spring-boot" },
+    { imgSrc: typescriptimg, altText: "typescript", skillName: "typescript" },
   ];
-
-  // const backData = [
-  //   { imgSrc: htmlimg, altText: "html", skillName: "HTML" },
-  //   { imgSrc: cssimg, altText: "css", skillName: "CSS" },
-  //   { imgSrc: reactimg, altText: "react", skillName: "React" },
-  //   { imgSrc: pyimg, altText: "python3", skillName: "Python3" },
-  //   { imgSrc: figmaimg, altText: "figma", skillName: "Figma" },
-  // ];
 
   return (
     <div className={styles.container} id="experience">
-      <h2 className={styles.title}>main Skills</h2>
+      <h2 className={styles.title}>experiences</h2>
       <div className={styles.contentContainer}>
         <Skils skillsData={frontData} />
-        {/* <p className={styles.contentTitle}>backend</p>
-        <Skils skillsData={backData} />
-        <p className={styles.contentTitle}>mobile App</p>
-        <Skils skillsData={backData} />
-        <p className={styles.contentTitle}>deployment</p>
-        <Skils skillsData={backData} />
-        <p className={styles.contentTitle}>version control</p>
-        <Skils skillsData={backData} />
-        <p className={styles.contentTitle}>communication</p>
-        <Skils skillsData={backData} /> */}
       </div>
     </div>
   );
