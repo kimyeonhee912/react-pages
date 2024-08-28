@@ -1,80 +1,120 @@
 @import "../../vars.css";
 
 .container {
-  position: relative;
   display: flex;
-  flex-direction: column;
-  border-radius: 10px;
-  background: linear-gradient(180deg, #495a9c 0%, #132a53 100%);
-  box-shadow: 0 16px 14px 0 #04152d;
-  padding: 18px;
-  width: 255px;
+  flex-direction: row;
+  gap: 30px;
+  padding: 20px;
+  background-color: #00000070;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 20px;
 }
 
 .container:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
 }
 
-.selected {
-  transform: translateY(-30px);
-  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
-  cursor: pointer;
+.container img {
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+  object-fit: contain;
+  border-radius: 10px;
 }
 
-.title {
-  font-size: 25px;
-  font-weight: 700;
-  margin: 10px 0px 5px 0px;
+.cardText {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 65%;
+}
+
+.cardTextContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.textTitle {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.textTitle h3 {
+  font-size: 18px;
+  color: #ffffff;
+  margin: 0;
+  font-weight: bold;
+}
+
+.size {
+  font-size: 14px;
+  color: #ffffff;
+  font-style: italic;
 }
 
 .description {
-  margin-top: 6px;
-  font-size: 15px;
-  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+  margin-top: 10px;
 }
 
-.skills {
-  width: 90%;
-  margin-top: 14px;
+.workList {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.workItem {
+  font-size: 14px;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+
+.buttonContainer {
   display: flex;
-  flex-direction: row;
+  justify-content: end; /* 버튼 간격 조정 */
+  margin-top: 20px; /* 위쪽 여백 추가 */
+  gap: 5px;
+}
+
+.button {
+  padding: 10px; /* 버튼 안쪽 여백 */
+  border: none; /* 기본 테두리 제거 */
+  border-radius: 5px; /* 모서리 둥글게 */
+  background-color: #28486d6f; /* 버튼 배경색 */
+  color: white; /* 버튼 글자색 */
+  text-decoration: none; /* 밑줄 제거 */
+  transition: background-color 0.3s; /* 호버 효과 전환 */
+}
+
+.button:hover {
+  background-color: #357ab8; /* 호버 시 배경색 변경 */
+}
+.skillContainer {
+  display: flex;
   flex-wrap: wrap;
-  gap: 6px;
-  list-style: none;
-  padding: 0;
+  gap: 10px;
+  margin-top: 20px;
 }
 
 .skill {
-  font-size: 18px;
-  font-weight: 400;
-  border-radius: 100px;
-  background: var(--color-dark);
-  padding: 2px 10px;
+  border: 2px solid #25384f;
+  border-radius: 12px;
+  padding: 8px 12px;
+  font-size: 14px;
+  color: #c4c3c3;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.more {
-  position: absolute;
-  right: 10px;
-  bottom: 65px;
-  margin-right: 10px;
-  cursor: pointer;
-}
-
-.links {
-  width: 100%;
-  margin-top: 10px;
-  display: flex;
-  justify-content: space-around;
-}
-
-.link {
-  text-decoration: none;
-  color: var(--color-text);
-  font-size: 18px;
-  font-weight: 600;
-  border-radius: 100px;
-  background: var(--color-primary);
-  padding: 2px 20px;
+.skill:hover {
+  background-color: #4a90e2;
+  color: #fff;
 }
