@@ -25,7 +25,7 @@ export const Navbar = () => {
             <a href="#About">About</a>
           </li>
           <li>
-            <a href="https://github.com/gongjuyeonhee">Github</a>
+            <a href="https://github.com/kimyeonhee912">Github</a>
           </li>
           <li>
             <a href="https://bit.ly/3TEn49P">Notion</a>

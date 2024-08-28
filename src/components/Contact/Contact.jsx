@@ -13,6 +13,10 @@ export const Contact = () => {
       </div>
       <ul className={styles.links}>
         <li className={styles.link}>
+          <AiFillGithub />
+          <a href="https://github.com/kimyeonhee912">github</a>
+        </li>
+        <li className={styles.link}>
           <CgMail />
           <a href="mailto:yeonhui5938@gmail.com">yeonhui5938@gmail.com</a>
         </li>
@@ -21,10 +25,6 @@ export const Contact = () => {
           <a href="https://www.linkedin.com/in/yeonhee01/">
             linkedin.com/yeonhee01
           </a>
-        </li>
-        <li className={styles.link}>
-          <AiFillGithub />
-          <a href="https://github.com/kimyeonhee912">github</a>
         </li>
       </ul>
     </footer>

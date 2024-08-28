@@ -18,7 +18,7 @@
 .contentContainer {
   background-color: rgba(12, 12, 12, 0.6);
   border-radius: 15px;
-  padding: 40px 73px;
+  padding: 40px 40px;
 }
 
 .contentTitle {
@@ -62,8 +62,8 @@
 
 .skillImageContainer img {
   width: 60px;
-  height: 60px; /* 원하는 크기로 조절 */
-  object-fit: contain; /* 이미지 비율을 유지하면서 크기 조절 */
+  height: 60px;
+  object-fit: contain;
 }
 
 .skill p {
@@ -74,14 +74,8 @@
 }
 
 .sliderContainer {
-  margin: 0 auto; /* 가운데 정렬 */
-  max-width: 1200px; /* 최대 너비 설정 */
-  padding: 20px; /* 패딩 추가 */
-}
-
-.skillCard {
-  text-align: center; /* 카드 텍스트 가운데 정렬 */
-  padding: 10px;
+  margin: 0 auto;
+  max-width: 1200px;
 }
 
 @media screen and (max-width: 830px) {

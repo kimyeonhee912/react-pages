@@ -3,7 +3,7 @@
 .container {
   display: flex;
   flex-direction: row;
-  gap: 30px;
+  gap: 35px;
   padding: 20px;
   background-color: #00000070;
   border-radius: 12px;
@@ -30,6 +30,7 @@
   flex-direction: column;
   justify-content: space-between;
   width: 65%;
+  padding-right: 10px;
 }
 
 .cardTextContainer {
@@ -61,7 +62,7 @@
 
 .description {
   font-size: 16px;
-  color: #ffffff;
+  color: #c3c1c1;
   margin-top: 10px;
 }
 

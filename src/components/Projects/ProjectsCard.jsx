@@ -25,7 +25,6 @@ export const ProjectsCard = ({
           ))}
         </div>
 
-        {/* 버튼을 카드 텍스트 블록의 마지막에 위치 */}
         <div className={styles.buttonContainer}>
           {demo && (
             <a

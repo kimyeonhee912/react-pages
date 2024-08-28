@@ -17,14 +17,14 @@ import typescriptimg from "../../assets/tool/typescript.png";
 
 export const Experience = () => {
   const frontData = [
-    { imgSrc: reactimg, altText: "react", skillName: "ReactJS" },
-    { imgSrc: nextimg, altText: "nextjs", skillName: "NextJS" },
+    { imgSrc: reactimg, altText: "react", skillName: "React.Js" },
+    { imgSrc: nextimg, altText: "nextjs", skillName: "Next.Js" },
     { imgSrc: htmlimg, altText: "html", skillName: "HTML 5" },
     { imgSrc: javascriptimg, altText: "javascript", skillName: "JavaScript" },
     { imgSrc: cssimg, altText: "css", skillName: "CSS 3" },
     { imgSrc: tailwindimg, altText: "tailwind", skillName: "tailwindCSS" },
     { imgSrc: pythonimg, altText: "python", skillName: "python3" },
-    { imgSrc: figmaimg, altText: "figma", skillName: "figma" },
+    { imgSrc: figmaimg, altText: "figma", skillName: "Figma" },
     { imgSrc: javaimg, altText: "java", skillName: "Java" },
     { imgSrc: mysqlimg, altText: "mysql", skillName: "mySQL" },
     {
@@ -33,7 +33,7 @@ export const Experience = () => {
       skillName: "ReactNative",
     },
     { imgSrc: springimg, altText: "springboot", skillName: "spring-boot" },
-    { imgSrc: typescriptimg, altText: "typescript", skillName: "typescript" },
+    { imgSrc: typescriptimg, altText: "typescript", skillName: "TypeScript" },
   ];
 
   return (
