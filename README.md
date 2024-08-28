@@ -24,9 +24,6 @@
 ## Contributing
 Contributions are welcome! If you have suggestions for improvements or find any issues, please create a pull request or open an issue.
 
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
 ## Contact
 For any inquiries or collaboration opportunities, feel free to reach out:
 - LinkedIn: Yeonhee Kim
