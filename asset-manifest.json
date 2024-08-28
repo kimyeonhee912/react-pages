@@ -1,15 +1,32 @@
 {
   "files": {
-    "main.css": "/react-pages/static/css/main.0c1ca8b9.css",
-    "main.js": "/react-pages/static/js/main.5522831a.js",
-    "static/media/img3.png": "/react-pages/static/media/img3.ccc4a189b0b26ccff90c.png",
+    "main.css": "/react-pages/static/css/main.8afc91dd.css",
+    "main.js": "/react-pages/static/js/main.b10efc62.js",
+    "static/media/MLB.png": "/react-pages/static/media/MLB.5d560e5ec1d5f036548c.png",
+    "static/media/travelbuddy.png": "/react-pages/static/media/travelbuddy.fdae9e844fe0ca1bb08c.png",
     "static/media/img.png": "/react-pages/static/media/img.5e4cbd0cb4b29b8ed15b.png",
+    "static/media/img3.png": "/react-pages/static/media/img3.4b22412a258d918d1c6b.png",
+    "static/media/linkedin.png": "/react-pages/static/media/linkedin.25e0d311b61a3740f0c1.png",
+    "static/media/reactnative.png": "/react-pages/static/media/reactnative.960c254546d972d9cf7f.png",
+    "static/media/ogaso.png": "/react-pages/static/media/ogaso.1ff2b4d27dd104f53b08.png",
+    "static/media/mysql.png": "/react-pages/static/media/mysql.66939d5cc3d473ac05a0.png",
+    "static/media/JavaScript.png": "/react-pages/static/media/JavaScript.ab7bc493ab1d40bbadfa.png",
+    "static/media/tailwind.png": "/react-pages/static/media/tailwind.3e34d8136e331a4e4b71.png",
+    "static/media/typescript.png": "/react-pages/static/media/typescript.5f1afc072e94b7caac1d.png",
+    "static/media/nextjs.png": "/react-pages/static/media/nextjs.1c65bccd6bee4884cc24.png",
+    "static/media/python.png": "/react-pages/static/media/python.f4f3af574a6881c80769.png",
+    "static/media/springboot.png": "/react-pages/static/media/springboot.94f201ce44348763e6a5.png",
+    "static/media/java.png": "/react-pages/static/media/java.7fce43d96c3695b42f14.png",
+    "static/media/slick.svg": "/react-pages/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/react-pages/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/react-pages/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/react-pages/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/react-pages/index.html",
-    "main.0c1ca8b9.css.map": "/react-pages/static/css/main.0c1ca8b9.css.map",
-    "main.5522831a.js.map": "/react-pages/static/js/main.5522831a.js.map"
+    "main.8afc91dd.css.map": "/react-pages/static/css/main.8afc91dd.css.map",
+    "main.b10efc62.js.map": "/react-pages/static/js/main.b10efc62.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c1ca8b9.css",
-    "static/js/main.5522831a.js"
+    "static/css/main.8afc91dd.css",
+    "static/js/main.b10efc62.js"
   ]
 }
