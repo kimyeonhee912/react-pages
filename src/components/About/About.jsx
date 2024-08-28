@@ -18,7 +18,7 @@ export const About = () => {
           <li className={styles.aboutItem}>
             <h3 className={styles.itemTitle}>Education</h3>
             <p className={styles.itemDescription}>
-              건국대학교 글로컬캠퍼스 졸업 (2024)
+              건국대학교 글로컬캠퍼스 - 소프트웨어 전공 (2024 졸업)
             </p>
           </li>
           <li className={styles.aboutItem}>
