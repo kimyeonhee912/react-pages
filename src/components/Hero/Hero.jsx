@@ -7,9 +7,9 @@ export const Hero = () => {
   return (
     <div className={styles.container}>
       <div className={styles.content}>
-        <h1 className={styles.title}>Hi, welcome to my Portfolio :)</h1>
+        <h1 className={styles.title}>YEONHEE KIM</h1>
         <p className={styles.description}>
-          I’m Yeonhee Kim, a Front-end Engineer
+          끊임없이 생각하는 Frontend Engineer 김연희입니다:)
         </p>
         <a href="mailto:yeonhui5938@gmail.com" className={styles.contactBtn}>
           Contact Me
